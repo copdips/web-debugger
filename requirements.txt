@@ -1,3 +1,40 @@
-fastapi
+# Core HTTP/HTTPS
+requests
+httpx
+aiohttp
+urllib3
+
+# DNS & low-level sockets
+dnspython
+ping3
+
+# WebSocket / streaming
+websockets
+wsproto
+python-socketio
+
+# Proxy / SOCKS
+PySocks
+requests[socks]
+httpx[socks]
+
+# Debug / pretty output
+rich
+httpcore
+
+# System / network introspection
+psutil
+
+# SSL / certificates
+certifi
+cryptography
+
+# Async + performance (optional)
 uvicorn[standard]
-jupyterlite
+fastapi
+trio
+curio
+
+# redis
+redis
+rq
